@@ -1,0 +1,206 @@
+.filter-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.filter-page-container {
+    margin-left: 15px;
+}
+
+.filter-left {
+    margin-top: 30px;
+    margin-left: 60px; 
+    margin-right: 40px; 
+}
+
+
+.range-input {
+    width: 155px;
+    height: 48px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-top: 1px solid #434343;
+    opacity: 0.8;
+}
+.country-select {
+    width: 374px;
+    height: 48px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-top: 1px solid #434343;
+    opacity: 0.8;
+}
+.metal-select {
+    width: 374px;
+    height: 48px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-top: 1px solid #434343;
+    opacity: 0.8;
+}
+.quality-select {
+    width: 374px;
+    height: 48px;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-top: 1px solid #434343;
+    opacity: 0.8;
+}
+.homepage-wrapper {
+    padding: 52px 0 0 52px; /* Отступы сверху и слева */
+}
+
+.header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание содержимого по левому краю */
+}
+
+.catalog-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.login-link, .register-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a0dad;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.login-link:hover, .register-link:hover {
+    color: #5a0cac;
+}
+
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Выравнивание элементов по левому краю */
+    margin-top: 20px;
+}
+
+.search-label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 5px; /* Отступ снизу, чтобы подпись была рядом с полем ввода */
+}
+
+.search-field {
+    width: 374px;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #434343;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 15px; /* Отступ снизу */
+}
+
+.search-button {
+    width: 120px;
+    height: 48px;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.search-button:hover {
+    background-color: #5a0cac;
+}
+
+.back-to-home-link {
+    font-size: 16px;
+    font-weight: bold;
+    color: #6a0dad;
+    text-decoration: none;
+    margin-top: 20px; /* Отступ сверху, чтобы ссылка не была слишком близко к кнопке */
+}
+
+.back-to-home-link:hover {
+    color: #5a0cac;
+}
+
+.filter-select {
+    width: 374px;
+    height: 48px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    padding: 8px;
+    border: 1px solid #434343;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+.filter-select option {
+    padding: 10px;
+}
+.filter-select optgroup {
+    font-weight: bold;
+    color: #6a0dad;
+}
+.filter-right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 100%;
+    margin-left: 60px; 
+    margin-right: 100px; 
+}
+
+.price-range,
+.issue-range {
+    width: 100%; 
+    margin-bottom: 20px;
+    margin-left: 1px; 
+}
+
+.price-range label,
+.issue-range label {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    margin-left: 1px; 
+    margin-right: 1px;
+}
+
+.price-inputs,
+.issue-inputs {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+}
+
+.price-inputs span,
+.issue-inputs span {
+    font-size: 14px;
+
+}
+.range-input {
+    width: 155px; 
+    height: 30px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #434343;
+    border-radius: 5px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: #333;
+    opacity: 0.8;
+}
+
+.range-input::placeholder {
+    color: #bbb;
+}
