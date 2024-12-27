@@ -1,0 +1,28 @@
+.coinItem {
+    text-decoration: none;
+    width: 48%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.coinItem img {
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.coinItemTitle {
+    font-weight: bold;
+    font-size: 16px;
+    color: #6C63FF;
+    margin-bottom: 8px;
+}
+
+.coinItemDescription {
+    font-size: 13px;
+    font-weight: 300;
+    color: #555;
+}

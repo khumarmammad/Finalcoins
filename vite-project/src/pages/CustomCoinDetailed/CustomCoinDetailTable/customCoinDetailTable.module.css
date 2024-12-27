@@ -1,0 +1,34 @@
+.customTableContainer {
+    background-color: #f4f4f4;
+    padding: 16px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.customTable {
+    width: auto;
+    border-collapse: collapse;
+}
+
+.customLabel,
+.customValue {
+    padding: 10px 14px;
+    border: 1px solid #d1d1d1;
+}
+
+.customLabel {
+    font-weight: 600;
+    text-align: left;
+}
+
+.customValue {
+    text-align: right;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f0f0f0;
+}

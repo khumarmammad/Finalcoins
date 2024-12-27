@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useHistory } from "react-router-dom"; // добавляем useHistory для редиректа
+
 import "./Login.css";
 
 const AdminLogin = () => {
@@ -8,7 +8,6 @@ const AdminLogin = () => {
     pass: ''
   });
 
-  const history = useHistory(); // Используем useHistory для редиректа
 
   const handleLogin = async (e) => {
     e.preventDefault();

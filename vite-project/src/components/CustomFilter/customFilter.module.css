@@ -1,0 +1,63 @@
+.customFilter input {
+    padding: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #000000;
+    width: 374px;
+}
+
+.customFilter button {
+    text-align: center;
+    border: none;
+    outline: none;
+    width: 120px;
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    background: #833AE0;
+}
+
+.customFilter p {
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+    width: max-content;
+}
+
+.customFilter .formSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.customFilter .formSection label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.customFilter .flex {
+    display: flex;
+    gap: 16px;
+}
+
+.customFilter .g30 {
+    gap: 30px;
+}
+
+.customFilter .submitButton {
+    background-color: #833AE0;
+    color: white;
+    font-size: 14px;
+    padding: 16px 0;
+    cursor: pointer;
+    border: none;
+    width: 120px;
+}
+
+.customFilter .submitButton:hover {
+    background-color: #7028C1;
+}

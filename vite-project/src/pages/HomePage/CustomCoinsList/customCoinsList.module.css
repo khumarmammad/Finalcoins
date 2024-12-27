@@ -1,0 +1,32 @@
+.customCoinsList {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.customCoinsList_element {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.customCoinsList_element h2 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.customCoinsList_element span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 300;
+    color: #000;
+    cursor: pointer;
+}
+
+.customCoinsList_element img {
+    width: 214px;
+    height: 214px;
+}
